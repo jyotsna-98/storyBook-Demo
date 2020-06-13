@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
+import Todo from "./Todo";
 
-
- TodoContainer=({title,deleteTodo})=> {
-  <div className="todo">
-    <h2>title</h2>
-  <button className="deleteBtn"
-        onClick={deleteTodo}
-            >DELETE
-        </button>
-  </div>
+function TodoContainer(props) {
+  return (
+    <div>
+      {props.Todos.map((todo) => (
+        <Todo title={todo} />
+      ))}
+    </div>
+  );
 }
 
 export default TodoContainer;

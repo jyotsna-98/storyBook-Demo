@@ -1,10 +1,9 @@
-import React from 'react';
-import Todo from '../Todo';
+import React from "react";
+import Todo from "../Todo";
+
 export default {
-  
-  title: 'Todo',
-  component:Todo,
+  title: "Todo",
+  component: Todo,
 };
 
-export const NormalTodo = () =>
- <Todo heading="My ToDo App"/>;
+export const NormalTodo = () => <Todo heading="My ToDo App" />;
