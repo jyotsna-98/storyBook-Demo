@@ -3,7 +3,6 @@ import "./Todo.css";
 import { useState } from "react";
 import TodoContainer from "./TodoContainer";
 
-
 function Todo(props){
 const [input,setInput]=useState("");
 const[todos,setTodos]=useState([]);
@@ -51,7 +50,4 @@ return(
 </div>
 );
 }
-
-
-
-export default App;
+export default Todo;
