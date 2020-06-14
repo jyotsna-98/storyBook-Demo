@@ -6,4 +6,4 @@ export default {
   component: Todo,
 };
 
-export const NormalTodo = () => <Todo heading="My ToDo App" />;
+export const NormalTodo = () => <Todo title="My ToDo App" />;

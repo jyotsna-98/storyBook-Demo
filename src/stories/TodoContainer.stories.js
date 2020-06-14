@@ -5,6 +5,12 @@ export default {
   title: "TodoContainer",
   component:TodoContainer,
 };
-export const NormalTodoContainer = () =>
-<TodoContainer title="this is todo Contianer "/>
+
+
+export const NormalTodo = () => (
+  <TodoContainer
+    Todos={["teach react", "take out dogs", 
+    "take out the cats"]}
+  />
+);
 

@@ -1,10 +1,6 @@
-.todo{
+.TodoContainer{
     display:flex;
     border:1px solid black;
 
 }
-@media (max-width:768px){
-    .todo{
-        flex-direction:column;
-    }
-}
+
